@@ -1,0 +1,80 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#fefae0 ;
+}
+
+.container{
+    height: 50vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px;
+}
+
+.box{
+    border-radius: 20px;
+    border: 3px solid black;
+    height: 20vmin;
+    width: 20vmin;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+
+.box:hover{
+    box-shadow: 5px black;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#counting{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    text-decoration: underline;
+}
+
+#Name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration:solid;
+}
+
+.resetor{
+    height: 10vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    gap: 20px; 
+}
+
+#reset{
+    height: 8vmin;
+    width: 15vmin;
+    border-radius: 30px;
+    background-color: black;
+    color: #fefae0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* text-decoration:solid; */
+    flex-wrap: wrap;
+    border: 3px solid #d4a373 ;
+
+}
