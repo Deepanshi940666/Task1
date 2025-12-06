@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#da627d;
+}
+
+#heading{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   color:#450920;
+   text-decoration: underline #450920;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8vmin;
+    gap: 10vmin;
+}
+
+.copybtn {
+    height: 7vmin;
+    width: 12vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #ffa5ab;
+    border:3px solid #a53860;
+     font-size: large;
+     color: #450920;
+}
+
+.copybtn:hover{
+    transition: 0.3s;
+     transform:scale(1.1) ;
+     box-shadow: 2px #450920;
+
+}
+
+#reset {
+    height: 10vmin;
+    width: 20vmin;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #ffa5ab;
+    border:3px solid #a53860;
+    margin-left: 97vmin;
+    /* transform:scale(1.1) ; */
+    font-size: large;
+    color: #450920;
+    margin-bottom: 10px;
+}
+
+#reset:hover{
+    transition: 0.3s;
+     transform:scale(1.1) ;
+     box-shadow: 2px #450920;
+     
+}
+
+#userText{
+    height: 25vmin;
+    width: 150vmin;
+    border:3px solid #a53860;
+    margin:2vmin 10vmin ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffa5ab ;
+     font-size: large;
+     color: #450920;
+}
+#upperCase{
+    height: 25vmin;
+    width: 150vmin;
+    border:3px solid #a53860;
+    margin:2vmin 10vmin ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffa5ab ;
+     font-size: large;
+     color: #450920;
+}
+#LowerCase{
+    height: 25vmin;
+    width: 150vmin;
+    border:3px solid #a53860;
+    margin:2vmin 10vmin ;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffa5ab ;
+     font-size: large;
+     color: #450920;
+}
+
